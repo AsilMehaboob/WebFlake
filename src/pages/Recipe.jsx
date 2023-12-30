@@ -45,7 +45,7 @@ const Recipe = () => {
     {
       id: 6,
       name: 'Chocolate Fudge',
-      imagePath: 'https://tinandthyme.uk/wp-content/uploads/2020/11/Chilli-Chocolate-Fudge-4.jpg',
+      imagePath: 'https://www.crazyforcrust.com/wp-content/uploads/2020/06/creamy-chocolate-fudge-7.jpg',
       detailsLink: '/recipe/ChoclateFudge',
       cookingTime: '2 hrs',
     },
