@@ -62,7 +62,7 @@ const ChocolateFudge = () => {
       </div>
       <div className="recipeimage">
         <img
-          src="https://tinandthyme.uk/wp-content/uploads/2020/11/Chilli-Chocolate-Fudge-4.jpg" // Replace with the actual image URL
+          src="https://www.crazyforcrust.com/wp-content/uploads/2020/06/creamy-chocolate-fudge-7.jpg" // Replace with the actual image URL
           alt="Chocolate Fudge"
         />
       </div>
