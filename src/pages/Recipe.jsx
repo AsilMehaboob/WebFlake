@@ -46,7 +46,7 @@ const Recipe = () => {
       id: 6,
       name: 'Chocolate Fudge',
       imagePath: 'https://www.crazyforcrust.com/wp-content/uploads/2020/06/creamy-chocolate-fudge-7.jpg',
-      detailsLink: '/recipe/ChoclateFudge',
+      detailsLink: '/recipe/ChocolateFudge',
       cookingTime: '2 hrs',
     },
     {
