@@ -1,0 +1,42 @@
+/* SugarCookies.css */
+
+.recipe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-left: 5%;
+  }
+  
+  .recipe-content {
+    width: 60%; /* Adjust the width of the recipe content as needed */
+  }
+  
+  .recipeimage {
+    width: 40%; /* Adjust the width of the image container as needed */
+  }
+  
+  .recipeimage img {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    max-width: 240px;
+    margin-right: 0;
+  }
+  
+  /* Add media query for responsive design if needed */
+  @media (max-width: 768px) {
+    .recipe-container {
+      flex-direction: column;
+    }
+  
+    .recipe-content,
+    .recipeimage {
+      width: 100%;
+    }
+
+    .listed-ingredients{
+      list-style: circle;
+    }
+  }
+  

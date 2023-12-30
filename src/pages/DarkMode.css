@@ -1,0 +1,114 @@
+/* 1 */
+:root {
+  --font-color: #000000;
+  --background-color: #eee;
+  --link-color: cornflowerblue;
+}
+
+/* 2 */
+[data-theme="dark"] {
+  --font-color: #fff;
+  --background-color: #292929;
+  --link-color: lightblue;
+  
+}
+
+/* 3 */
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+/* Custom Dark Mode Toggle Element */
+.toggle-theme-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: calc(7.5rem + 20px); /* 2rem below the top of the page */
+  right: 20px; /* Adjust the values as needed */
+  z-index: 1000; /* Ensure the toggle stays above other elements */
+}
+
+.toggle-theme-wrapper span {
+  font-size: 14px; /* Decreased font size */
+}
+
+.toggle-theme {
+  position: relative;
+  display: inline-block;
+  height: 24px; /* Decreased height */
+  width: 40px; /* Decreased width */
+}
+
+.toggle-theme input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  
+  content: "";
+  height: 16px; /* Adjusted height */
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 16px; /* Adjusted width */
+}
+
+input:checked + .slider:before {
+  transform: translateX(16px); /* Adjusted translation */
+}
+
+input:checked + .slider {
+  background-color: rgba(255, 255, 255, 0.559);
+}
+
+.slider.round {
+  border-radius: 12px; /* Adjusted border-radius */
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+[data-theme="dark"] .intro-card {
+  background-color: #000000;                   
+}
+
+[data-theme="dark"] .CardA {
+  background-color: #000000;                   
+}
+
+[data-theme="dark"] .about-container{
+  background-color: #000000;                   
+}
+
+[data-theme="dark"] .navbar-class{
+  background-color: #333333;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h4,
+[data-theme="dark"] p, 
+[data-theme="dark"] a {
+  color: #fff; /* Set the text color to white */
+}

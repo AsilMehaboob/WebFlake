@@ -1,0 +1,55 @@
+
+
+.CardA {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border-radius: 1rem;
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  width: 30%; /* Adjust width as needed */
+  
+  height: auto; /* Set height to auto for dynamic height based on content */
+  overflow: auto;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Button {
+    /* Style to center the button */
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    color: white;
+    background-color: rgb(113, 42, 42);
+    border-radius: 1rem;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow changes */
+  }
+  
+  .Button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+  }
+  
+  .Button:active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a stronger shadow on press */
+  }
+  
+
+/* Your existing styles for other elements */
+article {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.info-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}

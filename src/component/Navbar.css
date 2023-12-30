@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    padding-left: 4%;
+    font-size: x-large;
+    color: maroon;
+}
+
+nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  background-color: #f7f7f7;
+}
+
+.listing{
+  margin-left: auto;
+  display: flex;
+  list-style: none;
+  padding-right: 4%;
+  padding-top: 0.7rem;
+  gap: 1.1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Apply changes to the text color */
+ul li {
+  color: black;
+  position: relative;
+  gap: 4%;
+}
+
+/* Apply changes to the link text color */
+ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: medium;
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Darken the link text color on hover and add underline */
+ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+}

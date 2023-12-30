@@ -1,0 +1,29 @@
+.about-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    margin-top: 3.5%;
+    background-color: #f7f7f7;
+    padding: 3px 11px 3px 3px;
+
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 2%;
+    text-decoration: underline;
+    font-size: larger;
+    font-family: 'Afacad', sans-serif;
+}
+
+p{
+    font-size: large;
+}
+
+.about-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

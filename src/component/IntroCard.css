@@ -1,0 +1,36 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+.intro-card{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+    
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  width: 65%; /* Adjust width as needed */
+  font-family: 'Montserrat', sans-serif;
+  height: auto; /* Set height to auto for dynamic height based on content */
+  overflow: auto;
+    text-align: center;
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button {
+  /* Style to center the button */
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  
+}
+
+/* Your existing styles for other elements */
+article {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
+}
