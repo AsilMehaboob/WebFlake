@@ -11,7 +11,7 @@ Welcome to Treats and Reels, your go-to destination for festive Christmas recipe
 
 ## Logo
 
-![Treats and Reels Logo](src/components/images/Treats&Reels.png)
+![Treats and Reels Logo](src/component/images/Treats&Reels.png)
 
 ## Contributing
 
