@@ -17,15 +17,6 @@ Welcome to Treats and Reels, your go-to destination for festive Christmas recipe
 
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. We welcome contributions!
 
-## Issues and Bug Reports
-
-If you encounter any issues or have suggestions, please [open an issue](https://github.com/your-username/your-repo/issues) on GitHub.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 **Happy Holidays! 🎅🍪🎥**
 
